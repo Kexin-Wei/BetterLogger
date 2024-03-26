@@ -15,6 +15,7 @@ set(LIB_SRCS
 
 set(LIB_HDRS
     Logger.h
+    BLogger.h
 )
 
 set(OTHER_LIBS

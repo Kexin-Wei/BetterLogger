@@ -6,14 +6,14 @@
 #include <QObject>
 #include <qmap>
 
-#ifdef SPDLOG_TRACE
-#undef SPDLOG_TRACE
-#define SPDLOG_TRACE(logger, ...)                                                                   \
-    if (logger->should_log(level::trace))                                                           \
-    {                                                                                               \
-        logger->trace("{}::{}()#{}: ", __FILE__, __FUNCTION__, __LINE__, fmt::format(__VA_ARGS__)); \
-    }
-#endif
+// #ifdef SPDLOG_TRACE
+// #undef SPDLOG_TRACE
+// #define SPDLOG_TRACE(logger, ...)                                                                   \
+//     if (logger->should_log(level::trace))                                                           \
+//     {                                                                                               \
+//         logger->trace("{}::{}()#{}: ", __FILE__, __FUNCTION__, __LINE__, fmt::format(__VA_ARGS__)); \
+//     }
+// #endif
 
 namespace ultrast {
 namespace infrastructure {

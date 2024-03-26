@@ -1,4 +1,4 @@
-prefix=D:/GitRepos/spdlog/build/install
+prefix=D:/GitRepos/BetterLogger/lib/spdlog_x64
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib

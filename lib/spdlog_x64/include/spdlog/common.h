@@ -258,7 +258,7 @@ enum level_enum : int {
 #define SPDLOG_LEVEL_NAME_INFO spdlog::string_view_t("info", 4)
 #define SPDLOG_LEVEL_NAME_WARNING spdlog::string_view_t("warning", 7)
 #define SPDLOG_LEVEL_NAME_ERROR spdlog::string_view_t("error", 5)
-#define SPDLOG_LEVEL_NAME_CRITICAL spdlog::string_view_t("critical", 8)
+#define SPDLOG_LEVEL_NAME_CRITICAL spdlog::string_view_t("user", 4)
 #define SPDLOG_LEVEL_NAME_OFF spdlog::string_view_t("off", 3)
 
 #if !defined(SPDLOG_LEVEL_NAMES)

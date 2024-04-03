@@ -88,7 +88,8 @@
 			"concepts": "cpp",
 			"format": "cpp",
 			"optional": "cpp",
-			"stop_token": "cpp"
+			"stop_token": "cpp",
+			"variant": "cpp"
 		}
 	}
 }

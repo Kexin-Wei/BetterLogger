@@ -11,11 +11,13 @@ SET(CMAKE_AUTORCC ON)
 
 set(LIB_SRCS
     Logger.cpp
+    AWorker.cpp
 )
 
 set(LIB_HDRS
     Logger.h
     BLogger.h
+    AWorker.h
 )
 
 set(OTHER_LIBS

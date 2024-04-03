@@ -47,5 +47,9 @@ int main(int argc, char* argv[])
     thread->start();
 
     worker->testPrintInHeader();
+
+    emit worker->triggerPrintInHeader();
+
+    emit worker->startTimer();
     return app.exec();
 }

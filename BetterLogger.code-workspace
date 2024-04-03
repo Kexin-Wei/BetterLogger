@@ -89,7 +89,8 @@
 			"format": "cpp",
 			"optional": "cpp",
 			"stop_token": "cpp",
-			"variant": "cpp"
+			"variant": "cpp",
+			"qobject": "cpp"
 		}
 	}
 }
